@@ -88,7 +88,7 @@ export function SearchResult() {
             label="Change search destination"
             className="w-11/12 max-w-4xl">
             <SearchFlightsForm setRefresh={setRefresh} setIsOpen={setIsOpen} />
-            <div className="-mt-14 mx-8 block md:hidden">
+            <div className="mt-3 mx-8 block md:hidden">
               <button className="btn btn-outline w-full" onClick={closeModal} type="button">
                 Cancel
               </button>
@@ -123,7 +123,7 @@ export function SearchResult() {
             label="Change search destination"
             className="w-11/12 max-w-4xl">
             <SearchFlightsForm setRefresh={setRefresh} setIsOpen={setIsOpen} />
-            <div className="mt-2 mx-8 block md:hidden">
+            <div className="mt-3 mx-8 block md:hidden">
               <button className="btn btn-outline w-full" onClick={closeModal} type="button">
                 Cancel
               </button>
@@ -203,7 +203,7 @@ export function SearchResult() {
         label="Change search destination"
         className="w-11/12 max-w-4xl">
         <SearchFlightsForm setRefresh={setRefresh} setIsOpen={setIsOpen} />
-        <div className="-mt-14 mx-8 block md:hidden">
+        <div className="mt-3 mx-8 block md:hidden">
           <button className="btn btn-outline w-full" onClick={closeModal} type="button">
             Cancel
           </button>
